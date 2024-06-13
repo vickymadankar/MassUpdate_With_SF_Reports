@@ -4,8 +4,8 @@
  *                    : If there are any invalid, incorrect Ids, the component will generate an excel file 
  *                    : containing the invalid, incorrect Ids.
  * @Created Date      : 30-4-2024
- * @Author            : Vicky Madankar , Darshan Kukde             
- * @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+ * @Author            : Vicky Madankar ,            
+ * @last modified by  : 
  * Modifications Log 
  * Ver   Date         Author                              Modification
  * 1.0   05-8-2023   Vicky.Madankar@Perficient.com     Initial Version
@@ -17,7 +17,7 @@ import validateEposRecords from '@salesforce/apex/p66_EposMassUpdateController.v
 import { loadScript } from 'lightning/platformResourceLoader';
 import sheetJS from '@salesforce/resourceUrl/p66_sheetJS';
 
-export default class P66MassUpdateEpos extends LightningElement {
+export default class MassUpdateEpos extends LightningElement {
     isFileUploaded = false;
     @track data;
     @track fileName = '';
